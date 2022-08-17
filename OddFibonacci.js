@@ -5,9 +5,8 @@ function sumFibs(num) {
       fibonacci.push(fibonacci[i] + fibonacci[i+1])
       i++;
     }
-    while (fibonacci[i] + fibonacci[i+1] <= num) {
-  
-    }
+    while (fibonacci[i] + fibonacci[i+1] <= num) 
+    
     return fibonacci.filter(val => (val % 2) != 0).reduce((a,b) => a+b)
   
   }

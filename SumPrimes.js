@@ -3,7 +3,6 @@ function sumPrimes(num) {
       return 0;
     }
     let arr = [];
-  
     for (let i = 1; i < num; i++) {
       arr.push(i+1);
     }
@@ -19,3 +18,7 @@ function sumPrimes(num) {
   }
   
   console.log(sumPrimes(10));
+  console.log(sumPrimes(2));
+  console.log(sumPrimes(3));
+  console.log(sumPrimes(999));
+  
