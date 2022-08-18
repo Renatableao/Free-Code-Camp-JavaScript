@@ -56,7 +56,7 @@ The unique numbers should be sorted by their original order, but the final array
 
 * **Map the Debris**: According to Kepler's Third Law, the orbital period  T  of two point masses orbiting each other in a circular or elliptic orbit is:
 
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/84a962a4e5da8183f6a38ef23d0a5a9452667148)
+![alt text](https://global.discourse-cdn.com/freecodecamp/original/3X/3/b/3b3831f4334b255f143b3b1cdb0656f41bd008df.png)
  
   * a  is the orbit's semi-major axis
   * μ=GM  is the standard gravitational parameter
