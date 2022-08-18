@@ -52,15 +52,19 @@ The unique numbers should be sorted by their original order, but the final array
     * setFirstName(first)
     * setLastName(last)
     * setFullName(firstAndLast)
+    <br>
     Run the tests to see the expected output for each method. The methods that take an argument must accept only one argument and it has to be a string. These methods must be the only available means of interacting with the object.
 
 * **Map the Debris**: According to Kepler's Third Law, the orbital period  T  of two point masses orbiting each other in a circular or elliptic orbit is:
 
-![alt text](https://global.discourse-cdn.com/freecodecamp/original/3X/3/b/3b3831f4334b255f143b3b1cdb0656f41bd008df.png)
+   <p align="center">
+      <img src="https://global.discourse-cdn.com/freecodecamp/original/3X/3/b/3b3831f4334b255f143b3b1cdb0656f41bd008df.png" />
+   </p>
  
-  * a  is the orbit's semi-major axis
-  * μ=GM  is the standard gravitational parameter
-  * G  is the gravitational constant,
-  * M  is the mass of the more massive body.
+ 
+        * a  is the orbit's semi-major axis
+        * μ=GM  is the standard gravitational parameter
+        * G  is the gravitational constant,
+        * M  is the mass of the more massive body.
 
-Return a new array that transforms the elements' average altitude into their orbital periods (in seconds). The array will contain objects in the format {name: 'name', avgAlt: avgAlt}. The values should be rounded to the nearest whole number. The body being orbited is Earth. The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2.
+    Return a new array that transforms the elements' average altitude into their orbital periods (in seconds). The array will contain objects in the format {name: 'name', avgAlt: avgAlt}. The values should be rounded to the nearest whole number. The body being orbited is Earth. The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2.
