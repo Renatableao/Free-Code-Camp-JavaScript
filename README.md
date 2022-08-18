@@ -39,3 +39,28 @@ The unique numbers should be sorted by their original order, but the final array
 
 * **Steamroller**: Flatten a nested array. You must account for varying levels of nesting.
 
+* **Binary Agents**: Return an English translated sentence of the passed binary string. The binary string will be space separated.
+
+* **Everything Be True**: Check if the predicate (second argument) is truthy on all elements of a collection (first argument). In other words, you are given an array collection of objects. The predicate pre will be an object property and you need to return true if its value is truthy. Otherwise, return false.
+
+* **Arguments Optional**: Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum. For example, addTogether(2, 3) should return 5, and addTogether(2) should return a function. Calling this returned function with a single argument will then return the sum. If either argument isn't a valid number, return undefined.
+
+* **Make a Person**: Fill in the object constructor with the following methods below:
+    * getFirstName()
+    * getLastName()
+    * getFullName()
+    * setFirstName(first)
+    * setLastName(last)
+    * setFullName(firstAndLast)
+    Run the tests to see the expected output for each method. The methods that take an argument must accept only one argument and it has to be a string. These methods must be the only available means of interacting with the object.
+
+* **Map the Debris**: According to Kepler's Third Law, the orbital period  T  of two point masses orbiting each other in a circular or elliptic orbit is:
+
+![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/84a962a4e5da8183f6a38ef23d0a5a9452667148)
+ 
+  * a  is the orbit's semi-major axis
+  * μ=GM  is the standard gravitational parameter
+  * G  is the gravitational constant,
+  * M  is the mass of the more massive body.
+
+Return a new array that transforms the elements' average altitude into their orbital periods (in seconds). The array will contain objects in the format {name: 'name', avgAlt: avgAlt}. The values should be rounded to the nearest whole number. The body being orbited is Earth. The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2.
